@@ -7,7 +7,8 @@
 // mod match_control_flow;
 // use restaurant;
 // mod vectors;
-mod strings;
+// mod strings;
+mod hash_maps;
 
 fn main() {
 
@@ -20,5 +21,6 @@ fn main() {
     // match_control_flow::run();
     // restaurant::eat_at_restaurant();
     // vectors::run();
-    strings::run();
+    // strings::run();
+    hash_maps::run();
 }
