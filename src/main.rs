@@ -5,8 +5,8 @@
 // mod methods;
 // mod enums;
 // mod match_control_flow;
-use restaurant;
-
+// use restaurant;
+mod vectors;
 
 fn main() {
 
@@ -17,5 +17,6 @@ fn main() {
     // methods::run();
     // enums::run();
     // match_control_flow::run();
-    restaurant::eat_at_restaurant();
+    // restaurant::eat_at_restaurant();
+    vectors::run();
 }
