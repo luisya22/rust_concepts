@@ -8,7 +8,13 @@
 // use restaurant;
 // mod vectors;
 // mod strings;
-mod hash_maps;
+// mod hash_maps;
+// mod error_handling;
+// mod generics;
+// mod traits;
+// mod lifetimes;
+// mod closures;
+mod iterators;
 
 fn main() {
 
@@ -22,5 +28,11 @@ fn main() {
     // restaurant::eat_at_restaurant();
     // vectors::run();
     // strings::run();
-    hash_maps::run();
+    // hash_maps::run();
+    // error_handling::run();
+    // generics::run();
+    // traits::run();
+    // lifetimes::run();
+    // closures::run();
+    iterators::run();
 }
