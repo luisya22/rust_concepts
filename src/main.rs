@@ -18,7 +18,9 @@
 // mod smart_pointers;
 // mod smart_pointers2;
 // mod smart_pointers3;
-mod smart_pointers_tree;
+// mod smart_pointers_tree;
+mod concurrency;
+
 
 fn main() {
 
@@ -42,5 +44,6 @@ fn main() {
     // smart_pointers::run();
     // smart_pointers2::run();
     // smart_pointers3::run();
-    smart_pointers_tree::run();
+    // smart_pointers_tree::run();
+    concurrency::run();
 }
