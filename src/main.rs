@@ -14,7 +14,11 @@
 // mod traits;
 // mod lifetimes;
 // mod closures;
-mod iterators;
+// mod iterators;
+// mod smart_pointers;
+// mod smart_pointers2;
+// mod smart_pointers3;
+mod smart_pointers_tree;
 
 fn main() {
 
@@ -34,5 +38,9 @@ fn main() {
     // traits::run();
     // lifetimes::run();
     // closures::run();
-    iterators::run();
+    // iterators::run();
+    // smart_pointers::run();
+    // smart_pointers2::run();
+    // smart_pointers3::run();
+    smart_pointers_tree::run();
 }
