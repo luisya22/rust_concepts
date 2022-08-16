@@ -19,8 +19,11 @@
 // mod smart_pointers2;
 // mod smart_pointers3;
 // mod smart_pointers_tree;
-mod concurrency;
-
+// mod concurrency;
+// mod object_oriented;
+// mod object_oriented2_state_pattern;
+// mod object_oriented3_state_pattern_rust_way;
+mod patterns_and_matching;
 
 fn main() {
 
@@ -45,5 +48,9 @@ fn main() {
     // smart_pointers2::run();
     // smart_pointers3::run();
     // smart_pointers_tree::run();
-    concurrency::run();
+    // concurrency::run();
+    // object_oriented::run();
+    // object_oriented2_state_pattern::run();
+    // object_oriented3_state_pattern_rust_way::run();
+    patterns_and_matching::run();
 }
